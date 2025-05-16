@@ -73,8 +73,12 @@ ul{
     line-height: 160%;
     letter-spacing: 0%;
 }
-.links-section{
-    margin-top: 42px;
+.links-sections{
+    padding: 0;
+    margin: 0;
+}
+.quick-links{
+text-align: left;
 }
 .linc-section-par,
 .media-par{
@@ -97,5 +101,6 @@ ul{
 }
 .media-svg{
     background-color: #DFEBEB;
+    margin-right: 2px;
 }
 
