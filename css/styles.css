@@ -94,6 +94,10 @@ text-align: left;
     line-height: 160%;
     letter-spacing: 0%;
 }
+.footer-media-list{
+    margin: 0;
+    padding: 0;
+}
 .media-icon{
     display: flex;
     justify-content: center;
