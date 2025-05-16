@@ -90,6 +90,9 @@ ul{
     line-height: 160%;
     letter-spacing: 0%;
 }
+.media-icon{
+    display: flex;
+}
 .media-svg{
     background-color: #DFEBEB;
 }
