@@ -8,13 +8,19 @@ ul{
     background-color: #DFEBEB;
     padding: 64px;
     font-family: "Sarabun", sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 .footer-container{
+      background-color: #F8FBFE;
+
+}
+.footer-content{
     padding: 48px;
     display: flex;
     justify-content: space-between;
-    background-color: #F8FBFE;
     align-items: center;
+    flex-wrap: wrap;
 }
 .footer-links{
     display: flex;
@@ -61,11 +67,11 @@ ul{
     margin-left: 16px;
 }
 .all-rights{
-    margin-top: 24px;
     font-weight: 400;
     font-size: 14px;
     line-height: 160%;
     letter-spacing: 0%;
+    margin-left: 48px;
 }
 .privacy{
     font-weight: 400;
@@ -128,9 +134,7 @@ text-align: left;
     display: flex;
     flex-direction: column;
   }
-  .all-rights{
-  display: none;
-  }
+
   .footer-button{
     margin-left: auto;
     margin-right: auto;
@@ -171,9 +175,7 @@ text-align: left;
     .foot-form-input{
         width: 546px;
     }
-    .all-rights {
-     display: none;
-    }
+
     .footer-links{
      display: flex;
      flex-direction: row;
@@ -185,5 +187,10 @@ text-align: left;
  .connect-with-us{
     width: 300px;
  }
+.connect-with-us{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
 
 }
