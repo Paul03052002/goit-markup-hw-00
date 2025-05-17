@@ -112,6 +112,9 @@ text-align: left;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767.98px){
+   .footer{
+    min-width: 375px;
+   }
     .footer-container{
     display: flex;
     flex-direction: column;
