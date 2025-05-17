@@ -158,3 +158,32 @@ text-align: left;
       justify-content: flex-start;
   }
   }
+  @media screen and (min-width: 768px) and (max-width: 1157.98px){
+    .footer-container{
+        flex-direction: column;
+        width: 701px;
+        align-items: flex-start;
+    }
+    .footer-form{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .foot-form-input{
+        width: 546px;
+    }
+    .all-rights {
+     display: none;
+    }
+    .footer-links{
+     display: flex;
+     flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+ }
+ .quick-links,
+ .connect-with-us{
+    width: 300px;
+ }
+
+}
